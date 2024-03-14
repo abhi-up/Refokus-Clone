@@ -51,6 +51,7 @@ const Work = () => {
                         (elem, index) =>
                             elem.isActive && (
                                 <img
+                                    key={index}
                                     className="absolute w-60 rounded-lg -translate-x-[50%] -translate-y-[50%]"
                                     src={elem.url}
                                     style={{ top: elem.top, left: elem.left }}

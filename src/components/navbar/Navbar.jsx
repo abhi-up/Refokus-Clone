@@ -13,8 +13,9 @@ const Navbar = () => {
                     {["Home", "Work", "Culture", "", "News"].map(
                         (elem, index) => (
                             <a
+                                key={index}
                                 href="#"
-                                className="font-regular text-sm flex items-center gap-1"
+                                className="font-regular text-sm flex items-center gap-1 cursor-pointer "
                             >
                                 {index === 1 && (
                                     <span
