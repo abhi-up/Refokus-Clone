@@ -1,4 +1,5 @@
 import React from "react"
+import Button from "./Button"
 
 const Navbar = () => {
     return (
@@ -33,6 +34,7 @@ const Navbar = () => {
                     )}
                 </div>
             </div>
+            <Button />
         </div>
     )
 }
