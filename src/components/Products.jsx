@@ -33,7 +33,7 @@ const Products = () => {
         },
     ]
     return (
-        <div className="">
+        <div className="mt-32">
             {products.map((item, index) => (
                 <Product val={item} />
             ))}
