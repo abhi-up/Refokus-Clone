@@ -7,7 +7,11 @@ import Marquees from "./components/marquees/Marquees"
 import Cards from "./components/cards/Cards"
 import Footer from "./components/footer/Footer"
 
+import LocomotiveScroll from "locomotive-scroll"
+
 const App = () => {
+    const locomotiveScroll = new LocomotiveScroll()
+
     return (
         <div className="w-full bg-zinc-900 text-white">
             <Navbar />
