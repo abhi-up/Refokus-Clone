@@ -1,11 +1,11 @@
 import React from "react"
-import Navbar from "./components/Navbar"
-import Work from "./components/Work"
-import Stripes from "./components/Stripes"
-import Products from "./components/Products"
-import Marquees from "./components/Marquees"
-import Cards from "./components/Cards"
-import Footer from "./components/Footer"
+import Navbar from "./components/navbar/Navbar"
+import Work from "./components/hero/Work"
+import Stripes from "./components/stripes/Stripes"
+import Products from "./components/products/Products"
+import Marquees from "./components/marquees/Marquees"
+import Cards from "./components/cards/Cards"
+import Footer from "./components/footer/Footer"
 
 const App = () => {
     return (
