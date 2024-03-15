@@ -1,10 +1,12 @@
 import React from "react"
 import { IoIosArrowRoundForward } from "react-icons/io"
 
-const Card = ({ width, start, para, hover = "none" }) => {
+const Card = ({ width, start, para, hover }) => {
     return (
         <div
-            className={`bg-zinc-800 p-5 rounded-xl hover:${hover} ${width} min-h-[30rem] flex flex-col justify-between`}
+            className={`bg-zinc-800 p-5 rounded-xl ${width} min-h-[30rem] flex flex-col justify-between ${
+                hover ? "hover:bg-violet-500" : ""
+            }`}
         >
             <div className="w-full">
                 <div className="w-full flex justify-between items-center">
